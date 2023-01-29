@@ -4,4 +4,4 @@ services:
   plex:
     build: .
 ports:
- - 32400:32400
+ - 32400:80
