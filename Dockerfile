@@ -10,6 +10,5 @@ ENV DEBIAN_FRONTEND="noninteractive" \
   PLEX_MEDIA_SERVER_INFO_DEVICE="Docker Container (LinuxServer.io)"
 RUN  apt update
 RUN  apt install apt-transport-https curl wget -y
-RUN  wget -O plex3.deb https://downloads.plex.tv/plex-media-server-new/1.30.2.6563-3d4dc0cce/debian/plexmediaserver_1.30.2.6563-3d4dc0cce_amd64.deb
-RUN  dpkg -i ./plex3.deb
-RUN  usermod -d /app abc
+RUN  wget -O plex2.deb https://downloads.plex.tv/plex-media-server-new/1.30.2.6563-3d4dc0cce/debian/plexmediaserver_1.30.2.6563-3d4dc0cce_amd64.deb
+RUN  dpkg -i ./plex2.deb
