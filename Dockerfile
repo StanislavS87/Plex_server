@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:bionic
 ENV DEBIAN_FRONTEND="noninteractive" \
   PLEX_DOWNLOAD="https://downloads.plex.tv/plex-media-server-new" \
   PLEX_ARCH="amd64" \
