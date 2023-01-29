@@ -3,5 +3,6 @@ version: "3"
 services:
   plex:
     build: .
-  Ports:
-    - 32400:32400
+      ports:
+      - 32400:32400
+
